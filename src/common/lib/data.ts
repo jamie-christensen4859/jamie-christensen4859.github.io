@@ -7,7 +7,20 @@ import myhomeImg from '@/../public/images/myhome.png';
 import lapeImg from '@/../public/images/lape.png';
 import titanImg from '@/../public/images/titan.png';
 import mypreImg from '@/../public/images/mypre.png';
-import speakImg from '@/../public/images/speak.png';
+import lafelImg from '@/../public/images/lafel.png';
+import justeatImg from '@/../public/images/justeat.png';
+import macaulaImg from '@/../public/images/macaula.png';
+import sortjoyImg from '@/../public/images/sortjoy.png';
+import yellowpopImg from '@/../public/images/yellowpop.png';
+import bizsaleImg from '@/../public/images/bizsale.png';
+import vistaImg from '@/../public/images/vista.png';
+import heritageImg from '@/../public/images/heritage.png';
+import eightImg from '@/../public/images/1800.png';
+import kinderImg from '@/../public/images/kinder.png';
+import shannonImg from '@/../public/images/shannon.png';
+import iconincImg from '@/../public/images/iconinc.png';
+import collegeaiImg from '@/../public/images/collegeai.png';
+import weareImg from '@/../public/images/weare.png';
 
 import campwithusImg from '@/../public/images/camp-with-us.png';
 import carcatalogImg from '@/../public/images/car-catalog.png';
@@ -97,12 +110,25 @@ export const images = {
   lapeImg,
   titanImg,
   mypreImg,
-  speakImg,
+  lafelImg,
   campwithusImg,
   carcatalogImg,
   filedriveImg,
   projectmanagementImg,
   reactfoodImg,
+  justeatImg,
+  macaulaImg,
+  sortjoyImg,
+  yellowpopImg,
+  bizsaleImg,
+  vistaImg,
+  heritageImg,
+  eightImg,
+  kinderImg,
+  shannonImg,
+  iconincImg,
+  collegeaiImg,
+  weareImg
 };
 
 export const projectsData = [
@@ -135,27 +161,63 @@ export const projectsData = [
     link: 'https://www.myprephero.com/'
   },
   {
-    imageUrl: speakImg,
-    link: 'https://www.verbling.com/'
+    imageUrl: lafelImg,
+    link: 'https://www.lafeltrinelli.it/'
+  },
+  {
+    imageUrl: justeatImg,
+    link: 'https://www.just-eat.co.uk/'
+  },
+  {
+    imageUrl: macaulaImg,
+    link: 'https://macaulaysinclair.com/'
+  },
+  {
+    imageUrl: sortjoyImg,
+    link: 'https://www.sortjoy.com/'
+  },
+  {
+    imageUrl: yellowpopImg,
+    link: 'https://www.yellowpop.com/'
+  },
+  {
+    imageUrl: bizsaleImg,
+    link: 'https://bizsalebyowner.com/'
+  },
+  {
+    imageUrl: vistaImg,
+    link: 'https://www.vistabank.ro/'
+  },
+  {
+    imageUrl: heritageImg,
+    link: 'https://heritagedriven.com/'
+  },
+  {
+    imageUrl: eightImg,
+    link: 'https://1800lostdog.com/'
+  },
+  {
+    imageUrl: kinderImg,
+    link: 'https://kindergartenprepchildcare.com/'
+  },
+  {
+    imageUrl: shannonImg,
+    link: 'https://shannonfamilyofwines.com/'
+  },
+  {
+    imageUrl: iconincImg,
+    link: 'https://www.iconinc.co.uk/'
+  },
+  {
+    imageUrl: collegeaiImg,
+    link: 'https://collegeai.com/'
+  },
+  {
+    imageUrl: weareImg,
+    link: 'https://www.wearejude.com/'
   },
   
-  {
-    title: 'Surge',
-    description:
-      'Service that allows users to build and manage their own websites with integrated payment processing.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
-      'Tailwind',
-    ],
-    imageUrl: surgeImg,
-    link: 'https://github.com/bbyc4kes/surge',
-  },
+  
 ] as const;
 
 export const skillsData = [
