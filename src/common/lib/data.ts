@@ -56,7 +56,7 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Senior Software Egineer',
-    company: 'Outdoorsy',
+    company: 'RE:STUDIO',
     description:
       'I worked on web apps using React, Next.js, and TypeScript. I built backend services with Node.js, Express, and PostgreSQL. I connected third-party tools and used GraphQL to make data loading better. I teamed up with others to improve how the app looks and works on both web and mobile. I used Docker, AWS, and Firebase to deploy the apps. I also wrote tests with Jest, Cypress, and Supertest to make sure everything worked well.',
     icon: React.createElement(BriefcaseBusinessIcon),
@@ -64,39 +64,39 @@ export const experiencesData = [
   },
   {
     title: 'Software Engineer',
-    company: 'RE:STUDIO',
+    company: 'Aiberry',
     description:
       'I built and supported web apps using JavaScript, TypeScript, React, and Vue. I worked on the backend with Node.js, Express, Ruby on Rails, Django, and FastAPI. I created APIs with REST and GraphQL to make data flow better. I used PostgreSQL, MySQL, and MongoDB for storing data. I added real-time features with WebSockets and handled background jobs with Sidekiq and Celery. For deployment, I used AWS, Docker, and Heroku. I also wrote tests with Jest, Cypress, and RSpec to keep things stable and reliable.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: '07/2022 - 08/2023',
-  },
-  {
-    title: 'Software Engineer',
-    company: 'Aiberry',
-    description:
-      'I built web apps using JavaScript, React, and TypeScript. On the backend, I used Python and Ruby on Rails to build APIs. I worked with both REST and GraphQL to make data flow better. I added real-time features with WebSockets and ran background jobs with Sidekiq and Celery. I used PostgreSQL and Redis to manage data. I worked closely with other teams to build and ship good software on time. I also handled deployments with AWS, Docker, and Git, and wrote tests using Jest, RSpec, and Pytest to make sure everything worked well.',
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: '06/2020 - 06/2022',
-  },
-  {
-    title: 'Full Stack Engineer',
-    company: 'BairesDev',
-    description: `I built and maintained web apps using JavaScript, TypeScript, and React, created scalable APIs with Node and Express, worked with multiple databases, added real-time features, handled deployments with AWS and Docker, and wrote tests to keep everything reliable.`,
-    icon: React.createElement(BookIcon),
-    date: '09/2018 - 06/2020',
+    date: '07/2020 - 08/2023',
   },
   {
     title: 'Full Stack Developer',
     company: 'SurveyJunkie',
     description:
-      'I built and maintained full-stack web apps using JavaScript, PHP, and modern frameworks, designed APIs with REST and GraphQL, managed both SQL and NoSQL databases, handled frontend design with responsive layouts, optimized backend performance with Node.js, automated deployments with Docker and AWS, wrote tests to ensure stability, and collaborated closely with teams in an agile setup.',
+      'I built web apps using JavaScript, React, and TypeScript. On the backend, I used Python and Ruby on Rails to build APIs. I worked with both REST and GraphQL to make data flow better. I added real-time features with WebSockets and ran background jobs with Sidekiq and Celery. I used PostgreSQL and Redis to manage data. I worked closely with other teams to build and ship good software on time. I also handled deployments with AWS, Docker, and Git, and wrote tests using Jest, RSpec, and Pytest to make sure everything worked well.',
     icon: React.createElement(BriefcaseBusinessIcon),
-    date: '02/2015 - 09/2018',
+    date: '06/2018 - 06/2020',
   },
   {
     title: 'Web Developer',
+    company: 'BairesDev',
+    description: `I built and maintained web apps using JavaScript, TypeScript, and React, created scalable APIs with Node and Express, worked with multiple databases, added real-time features, handled deployments with AWS and Docker, and wrote tests to keep everything reliable.`,
+    icon: React.createElement(BookIcon),
+    date: '09/2015 - 06/2018',
+  },
+  {
+    title: 'Intern',
     company: 'Labster',
-    description: `I built and maintained responsive web apps using HTML, CSS, JavaScript, and Angular, developed scalable backend features with PHP and Symfony, collaborated closely with other teams, and tested APIs with Postman to ensure everything worked smoothly.`,
+    description:
+      'I built and maintained full-stack web apps using JavaScript, PHP, and modern frameworks, designed APIs with REST and GraphQL, managed both SQL and NoSQL databases, handled frontend design with responsive layouts, optimized backend performance with Node.js, automated deployments with Docker and AWS, wrote tests to ensure stability, and collaborated closely with teams in an agile setup.',
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: '02/2015 - 09/2015',
+  },
+  {
+    title: 'Summer Internship',
+    company: 'Texas Christian University',
+    description: `I developed new algorithms for an NLP application as a research intern.`,
     icon: React.createElement(BookIcon),
     date: '10/2013 - 01/2015',
   }
