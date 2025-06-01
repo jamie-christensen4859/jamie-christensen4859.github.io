@@ -56,7 +56,7 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Senior Software Egineer',
-    company: 'RE:STUDIO',
+    company: 'Deel',
     description:
       'I worked on web apps using React, Next.js, and TypeScript. I built backend services with Node.js, Express, and PostgreSQL. I connected third-party tools and used GraphQL to make data loading better. I teamed up with others to improve how the app looks and works on both web and mobile. I used Docker, AWS, and Firebase to deploy the apps. I also wrote tests with Jest, Cypress, and Supertest to make sure everything worked well.',
     icon: React.createElement(BriefcaseBusinessIcon),
